@@ -1,0 +1,50 @@
+/* moreServices.css */
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+/* Service Box Styling */
+.service-box {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: black !important;
+    text-decoration: none;
+}
+
+.service-icon {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.service-details {
+    flex: 1;
+}
+
+.service-details h4,
+.service-details p {
+    color: black !important;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.service-box .service-details h4,
+.service-box .service-details p {
+    color: black !important;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+}

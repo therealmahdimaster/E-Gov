@@ -1,0 +1,78 @@
+/* homepage.css */
+
+.bg-image {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust the opacity and color as needed */
+    color: white;
+    padding: 20px;
+}
+
+/* homepage.css */
+
+.user-info-container {
+    padding: 15px; /* Adjust padding */
+    background-color: rgba(224, 224, 224, 0.8); /* Change to the color you prefer with an alpha value */
+    text-align: center;
+    border-radius: 15px; /* Rounded corners */
+    width: 70%; /* Adjust width */
+    margin: 0 auto; /* Center horizontally */
+}
+
+
+
+.user-info-container {
+    padding: 15px;
+    /* Adjust padding */
+    background-color: rgba(224, 224, 224, 0.8);
+    /* Change to the color you prefer with an alpha value */
+    text-align: center;
+    border-radius: 15px;
+    /* Rounded corners */
+    width: 70%;
+    /* Adjust width */
+    margin: 20px auto;
+    /* Center horizontally */
+}
+
+.user-info {
+    /* Styles for user information */
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Additional styles for navbar and footer to avoid transparency */
+
+
+/* homepage.css */
+.profile-pic {
+    width: 850px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+
+}
+
+/* homepage.css */
+.profile-pic-wrapper {
+    position: relative;
+}
+
+.profile-line {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 80%;
+    /* Adjust the width as needed */
+    border: none;
+    border-top: 1px solid #ccc;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags, title, CSS links -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <link rel="stylesheet" href="otp.css"> <!-- Link to your dedicated CSS file -->
+</head>
+
+<body>
+    <section class="otp-container">
+        <div class="otp-card">
+            <div class="otp-header">
+                <h2>Enter Verification Code</h2>
+            </div>
+            <div class="otp-input">
+                <input type="text" maxlength="1" pattern="\d{1}" />
+                <input type="text" maxlength="1" pattern="\d{1}" />
+                <input type="text" maxlength="1" pattern="\d{1}" />
+                <input type="text" maxlength="1" pattern="\d{1}" />
+            </div>
+            <a href="homepage.html">
+            <button class="otp-button">Verify</button>
+            </a>
+            <p class="otp-resend">Didn't receive the code? <a href="#">Resend</a></p>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+/* otp.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.otp-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+.otp-header {
+    margin-bottom: 20px;
+}
+
+.otp-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.otp-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.otp-button:hover {
+    background-color: #0056b3;
+}
+
+.otp-resend {
+    font-size: 14px;
+    color: #888;
+    margin-top: 20px;
+}
+
+.otp-resend a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.otp-resend a:hover {
+    text-decoration: underline;
+}
